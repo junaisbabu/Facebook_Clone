@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Avatar } from '@mui/material'
 import React from 'react'
 import './Post.css'

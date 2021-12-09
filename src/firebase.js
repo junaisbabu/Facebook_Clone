@@ -1,3 +1,4 @@
+/* eslint-disable no-template-curly-in-string */
 import firebase from "firebase/compat/app"
 import 'firebase/compat/firestore'
 import 'firebase/compat/auth'

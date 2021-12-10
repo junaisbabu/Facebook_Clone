@@ -16,7 +16,9 @@ function Sidebar() {
 const [{user}, dispatch] = useStateValue();
 
     return (
+        
         <div className="sidebar" >
+            <div className='sidebar_position'>
             <SidebarRow 
             src={user.photoURL}
             title={user.displayName}
@@ -31,6 +33,7 @@ const [{user}, dispatch] = useStateValue();
             <SidebarRow Icon={StorefrontIcon} title="Marketplace" />
             <SidebarRow Icon={VideoLibraryIcon} title="Videos" />
             <SidebarRow Icon={ExpandMoreOutlined} title="Marketplace" />
+        </div>
         </div>
     )
 }
